@@ -1,4 +1,9 @@
 # ✒️ Aplicación Web de Firma Digital de PDFs
+## /Users/user/.local/pipx/venvs/pyhanko-cli/lib/python3.14/site-packages/pyhanko/sign/signers/
+pdf_cms. py:1523: UserWarning: PKCS#12 bundle could not be parsed as DER, falling back to parsing as BER.
+Please file an issue at https://github.com/pyca/cryptography/issues explaining how your PKCS#12 bundle was
+created. In the future, this may becomhte an exception.
+) = pkcs12.load key_and_certificates(pkcs12 bytes, passphrase)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.x-black.svg)
